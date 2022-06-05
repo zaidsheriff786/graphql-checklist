@@ -42,7 +42,7 @@ function App() {
 					<p key={todo.id}>
 						<span className="pointer list pa1 f3">{todo.text}</span>
 						<button className="bg-transparent bn f4">
-							<span className="green">&times;</span>
+							<span className="red">&times;</span>
 						</button>
 					</p>
 				))}
